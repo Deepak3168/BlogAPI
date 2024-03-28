@@ -7,8 +7,9 @@ to run this api on your device
 ```pipenv install ```
 to run the api server 
 ``` python manage.py runserver ```
-and now open https//127.0.0.1:8000/api/v1/ 
+and now open https://127.0.0.1:8000/api/v1/ 
 for documentation 
-https//127.0.0.1:8000/swagger/
-https//127.0.0.1:8000/redoc/
+https://127.0.0.1:8000/swagger/
+for api 
+https://127.0.0.1:8000/redoc/
 
