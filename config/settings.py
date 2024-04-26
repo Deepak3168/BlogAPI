@@ -90,10 +90,16 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'blog_ygje',               # Database name
+        'USER': 'deepak',                  # Database user
+        'PASSWORD': 'f22Y1gqduFJRBQ2V4ja6kzZzoeSforLh',  # Database password
+        'HOST': 'dpg-colnp7i1hbls7392jco0-a.singapore-postgres.render.com',  # Hostname provided by Render
+        'PORT': '',                        # Leave empty to use the default PostgreSQL port (5432)
     }
 }
+
+
 
 
 REST_FRAMEWORK = {
