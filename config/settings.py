@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-t)(4948=-*n)e7*$%!j^x9i0oghb-6i6z6y0$z-*bl0*ax+#qt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1',"blogapi-1-uxcd.onrender.com"]
+ALLOWED_HOSTS = ['127.0.0.1',"0.0.0.0"]
 
 
 # Application definition
